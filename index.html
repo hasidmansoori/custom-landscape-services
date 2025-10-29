@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,46 +52,26 @@
     <img src="images/gallery/nursery.jpeg" alt="Tree Nursery" style="width:100%;border-radius:6px;">
   </section>
 
+
   <!-- === PROJECT GALLERY === -->
-  
-   <!-- Gallery -->
 <section class="section" id="gallery">
   <div class="container">
     <h2>Gallery</h2>
     <p class="muted">Recent projects</p>
-    <div class="gallery-grid" id="gallery-grid">
-      <!-- images will be inserted here -->
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </div>
+</section>
 
-      
 <script>
 const galleryContainer = document.getElementById('gallery-grid');
-
-const baseURL = "https://cydneyskeens.github.io/custom-landscape-services/images/gallery/";
-
+const baseURL = "https://cls23.com/images/gallery/";
 const imageList = [
-  "campsite.jpeg",
-  "campsite2.jpg",
-  "campsite3.jpeg",
-  "campsite4.jpeg",
-  "campsiteUSA.jpeg",
-  "cydtractor.jpeg",
-  "equipment.jpeg",
-  "fencesunset.jpeg",
-  "fencetractor.jpeg",
-  "mulch.jpeg",
-  "nursery.jpeg",
-  "orchard.jpeg",
-  "solar.jpeg",
-  "tinyhousesnow.jpg",
-  "tractor2.jpeg",
-  "treedamage.jpeg",
-  "treeplanting.jpeg",
-  "treerow.jpeg",
-  "treerow2.jpeg",
-  "treetransplant.jpeg",
-  "treetransplant1.jpeg",
-  "treetransplant2.jpeg",
-  "vermeer.jpeg"
+  "campsite.jpeg","campsite2.jpg","campsite3.jpeg","campsite4.jpeg",
+  "campsiteUSA.jpeg","cydtractor.jpeg","equipment.jpeg","fencesunset.jpeg",
+  "fencetractor.jpeg","mulch.jpeg","nursery.jpeg","orchard.jpeg","solar.jpeg",
+  "tinyhousesnow.jpg","tractor2.jpeg","treedamage.jpeg","treeplanting.jpeg",
+  "treerow.jpeg","treerow2.jpeg","treetransplant.jpeg","treetransplant1.jpeg",
+  "treetransplant2.jpeg","vermeer.jpeg"
 ];
 
 imageList.forEach(filename => {
@@ -98,7 +80,8 @@ imageList.forEach(filename => {
   img.alt = filename;
   galleryContainer.appendChild(img);
 });
-</script>    
+</script>
+  
     
 <link rel="stylesheet" href="styles.css">
     </div>
